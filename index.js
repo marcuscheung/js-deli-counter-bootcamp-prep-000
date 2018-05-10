@@ -22,7 +22,7 @@ var katzDeliLine = [];
 
 function currentLine(katzDeliLine){
   for (var i = 0; i < katzDeliLine.length; i++){
-    katzDeliLine.push('[1 + i]' + '. ' + 'katzDeliLine[i]');
+    katzDeli.push('[1 + i]' + '. ' + 'katzDeliLine[i]');
   }
   if (katzDeliLine.length === 0){
     return 'The line is currently empty.';
