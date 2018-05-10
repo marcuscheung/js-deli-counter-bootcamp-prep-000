@@ -18,11 +18,11 @@ function nowServing(katzDeli){
   }
 }
 
-var katzDeli = [];
+var line = [];
 
 function currentLine(katzDeliLine){
   for (var i = 0; i < katzDeliLine.length; i++){
-    katzDeli.push('[1 + i]' + '. ' + 'katzDeliLine[i]');
+    line.push('[1 + i]' + '. ' + 'katzDeliLine[i]');
   }
   if (katzDeliLine.length === 0){
     return 'The line is currently empty.';
